@@ -4,7 +4,7 @@
 	height: 430px;
 	margin: 0 auto;
 	top: 120px;
-		@media screen and (max-width: 375px){
+		@media screen and (max-width: 768px){
 				width: 100%;
 				top: 50px;
 
@@ -38,7 +38,7 @@
 	 	text-align: center;
 	 	background-color: white;
 	 	transition: all ease 2s;
-	 	@media screen and (max-width: 375px){
+	 	@media screen and (max-width: 768px){
 				transform: scale(.7);
 			}
 	 	&:hover{
@@ -52,7 +52,7 @@
 			background-color: black;
 			opacity: .1;
 			margin-top: 90px;
-			 	@media screen and (max-width: 375px){
+			 	@media screen and (max-width: 768px){
 				display: none;
 			}
 
@@ -62,7 +62,7 @@
 			position: relative;
 			top: 50%;
 			transform: translateY(-50%) scale(1.2);
-			@media screen and (max-width: 375px){
+			@media screen and (max-width: 768px){
 				transform: translateY(-50%) scale(1);
 			}
 		}
