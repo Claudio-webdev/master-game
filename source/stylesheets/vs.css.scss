@@ -1,0 +1,104 @@
+.vs{
+	position: relative;
+	width: 100%;
+	height: 430px;
+	margin: 0 auto;
+	top: 120px;
+	color: white;
+	text-transform: uppercase;
+	word-spacing: 5px;
+	overflow: hidden;
+		@media screen and (max-width: 375px){
+			top: 50px;
+			}
+
+	&-wrapper{
+		display: inline-flex;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);		
+		@media screen and (max-width: 375px){
+			width: 100%;
+			}
+
+	}
+	&-youpicked{
+		text-align: center;
+		margin-right: 100px;
+		@media screen and (max-width: 375px){
+		margin-right: 0px;
+				h2{
+			font-size: 20px;
+			}
+		}
+
+	}
+	&-cpupicked{
+		text-align: center;
+		margin-left: 100px;
+		transition:all ease 3s;
+			@media screen and (max-width: 375px){
+				margin-left: 0px;
+				h2{
+					font-size: 20px;
+					}
+			}
+	}
+	&-game{
+		@media screen and (max-width: 375px){
+		position: absolute;
+		top: 150%;
+		left: 50%;
+		transform: translateX(-50%);
+		}
+	}
+	&-game-result{
+		position: relative;
+		text-align: center;
+		top:70%;
+		transform: translateY(-50%);
+
+
+		h3{
+			font-size: 50px;
+		}
+		button{
+			position: relative;
+			width: 100%;
+			height: 50px;
+			color: red;
+			border-radius: 15px;
+			font-size: 16px;
+			text-transform: uppercase;
+				@media screen and (max-width: 375px){
+				width: 250px;
+				color: #141539;
+			}
+		}
+	}
+	.choices_circle{
+		transform: scale(1.3);
+		margin-top: 90px;
+		transition: all ease 2s;
+		@media screen and (max-width: 375px){
+			transform: scale(.6);
+			margin-top: 5px;
+			
+			}
+
+	}
+
+
+	.big{
+		transition: all ease 2s;
+				@media screen and (max-width: 375px){
+		position: relative;
+			width: 187px;
+			}
+
+	}
+
+}
+	.won{
+		box-shadow: rgba(255, 255, 255, 0.3) 0px 0px 0px 0.9px, rgba(0, 0, 0, 0.5) 0px 0px 25px 5px, rgba(175, 176, 105, 0.1) 0px 0px 0px 46px, rgba(130, 132, 130, 0.1) 0px 0px 0px 82px, rgba(178, 181, 178, 0.1) 0px 0px 0px 118px;
+	}
