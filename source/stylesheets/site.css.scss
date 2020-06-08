@@ -33,16 +33,34 @@
 	border: 25px solid hsl(349, 71%, 52%);
 	position: relative;
 	margin: 0 auto;
+		@media screen and (max-width: 375px){
+		border: 17px solid hsl(349, 71%, 52%);
+		}
+		@media screen and (max-width: 330px){
+		border: 12px solid hsl(349, 71%, 52%);
+		}
 }
 .paper{
 	box-shadow:  5px 10px ;
 	box-shadow:  0px 9px #394DB1, inset   0px 9px 4px #888888;
 	border: 25px solid hsl(230, 89%, 62%);
+	@media screen and (max-width: 375px){
+		border: 17px solid hsl(230, 789%, 62%);
+	}
+	@media screen and (max-width: 330px){
+		border: 12px solid hsl(230, 789%, 62%);
+	}
 }
 .scissor{
 	box-shadow:  5px 10px ;
 	box-shadow:  0px 9px #EF7d1F, inset   0px 9px 4px #888888;
 	border: 25px solid hsl(39, 89%, 49%);
+	@media screen and (max-width: 375px){
+		border: 17px solid hsl(39, 89%, 49%);
+	}
+	@media screen and (max-width: 330px){
+		border: 12px solid hsl(39, 89%, 49%);
+	}
 }
 
 

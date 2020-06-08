@@ -7,7 +7,10 @@
 		@media screen and (max-width: 768px){
 				width: 100%;
 				top: 50px;
-
+			}
+		@media screen and (max-width: 330px){
+	height: 330px;
+				
 			}
 	&-trinagle{
 		position: absolute;
@@ -15,6 +18,9 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 		z-index: 0;
+			@media screen and (max-width: 330px){
+				transform: translate(-50%, -55%) scale(.7);
+			}
 	}
 	&_top{
 		position: relative;
@@ -22,6 +28,11 @@
 		height: 50%;
 		display: flex;
 		justify-content: space-between;
+		@media screen and (max-width: 330px){
+			width: 90%;
+			left: 50%;
+			transform: translateX(-50%);
+			}
 	}
 	&_bottom{
 		position: relative;
@@ -39,7 +50,12 @@
 	 	background-color: white;
 	 	transition: all ease 2s;
 	 	@media screen and (max-width: 768px){
-				transform: scale(.7);
+				width: 150px;
+    			height: 150px;
+			}
+		@media screen and (max-width: 330px){
+				width: 110px;
+    			height: 110px;
 			}
 	 	&:hover{
 	 		cursor: pointer;
@@ -64,6 +80,9 @@
 			transform: translateY(-50%) scale(1.2);
 			@media screen and (max-width: 768px){
 				transform: translateY(-50%) scale(1);
+			}
+			@media screen and (max-width: 330px){
+				transform: translateY(-50%) scale(.7);
 			}
 		}
 
