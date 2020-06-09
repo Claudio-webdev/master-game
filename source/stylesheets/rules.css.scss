@@ -17,8 +17,13 @@ button.rules{
     	transform: translateX(-50%);
     	margin: 30px 0 0 0;
 		}
-	@media screen and (max-width: 330px){
-	 
+	@media screen and (max-width: 420px){
+		position: absolute;
+		top: 70%;
+		}
+	@media screen and (max-width: 365px){
+		position: absolute;
+		top: 80%;
 		}
 }
 .rules-modal{
@@ -58,15 +63,18 @@ button.rules{
 		svg{
 			position: relative;
 			margin: 30px 25px 0 0 ;
+
 			@media screen and (max-width: 768px){
 			position: absolute;
-			top: 450px;
+			top: 750px;
 			left: 50%;
 			transform: translateX(-50%);
 			}	
-			@media screen and (max-width: 390px){
+			@media screen and (max-width: 500px){
+			top: 550px;
+			}	
+			@media screen and (max-width: 400px){
 			top: 400px;
-
 			}	
 
 		}
@@ -76,10 +84,10 @@ button.rules{
 		text-align: center;
 		img{
 			margin: 30px;
-			@media screen and (max-width: 768px){
-			 position: relative;
-			 width: 80%;
+			@media screen and (max-width: 1024px){
+				width: 80%;
 			}
+
 		}
 	}
 }
